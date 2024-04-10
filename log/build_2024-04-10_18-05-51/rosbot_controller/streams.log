@@ -1,0 +1,29 @@
+[0.273s] Invoking command in '/home/parallels/Documents/ros2_ws/src/rosbot_ros/rosbot_controller': AMENT_PREFIX_PATH=/home/parallels/Documents/ros2_ws/install/rosbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/Documents/ros2_ws/install/rosbot_description GAZEBO_MODEL_PATH=/home/parallels/Documents/ros2_ws/install/rosbot_description/share GZ_SIM_RESOURCE_PATH=/home/parallels/Documents/ros2_ws/install/rosbot_description/share IGN_GAZEBO_RESOURCE_PATH=/home/parallels/Documents/ros2_ws/install/rosbot_description/share PYTHONPATH=/home/parallels/Documents/ros2_ws/build/rosbot_controller/prefix_override:/home/parallels/Documents/ros2_ws/install/rosbot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/rosbot_controller build --build-base /home/parallels/Documents/ros2_ws/build/rosbot_controller/build install --record /home/parallels/Documents/ros2_ws/build/rosbot_controller/install.log --single-version-externally-managed install_data
+[0.371s] running egg_info
+[0.372s] creating ../../../build/rosbot_controller/rosbot_controller.egg-info
+[0.372s] writing ../../../build/rosbot_controller/rosbot_controller.egg-info/PKG-INFO
+[0.372s] writing dependency_links to ../../../build/rosbot_controller/rosbot_controller.egg-info/dependency_links.txt
+[0.372s] writing entry points to ../../../build/rosbot_controller/rosbot_controller.egg-info/entry_points.txt
+[0.372s] writing requirements to ../../../build/rosbot_controller/rosbot_controller.egg-info/requires.txt
+[0.372s] writing top-level names to ../../../build/rosbot_controller/rosbot_controller.egg-info/top_level.txt
+[0.372s] writing manifest file '../../../build/rosbot_controller/rosbot_controller.egg-info/SOURCES.txt'
+[0.372s] reading manifest file '../../../build/rosbot_controller/rosbot_controller.egg-info/SOURCES.txt'
+[0.373s] writing manifest file '../../../build/rosbot_controller/rosbot_controller.egg-info/SOURCES.txt'
+[0.373s] running build
+[0.373s] running install
+[0.373s] running install_data
+[0.373s] creating /home/parallels/Documents/ros2_ws/install/rosbot_controller/share/ament_index
+[0.373s] creating /home/parallels/Documents/ros2_ws/install/rosbot_controller/share/ament_index/resource_index
+[0.373s] creating /home/parallels/Documents/ros2_ws/install/rosbot_controller/share/ament_index/resource_index/packages
+[0.373s] copying resource/rosbot_controller -> /home/parallels/Documents/ros2_ws/install/rosbot_controller/share/ament_index/resource_index/packages
+[0.373s] copying package.xml -> /home/parallels/Documents/ros2_ws/install/rosbot_controller/share/rosbot_controller
+[0.373s] creating /home/parallels/Documents/ros2_ws/install/rosbot_controller/share/rosbot_controller/launch
+[0.373s] copying launch/controller.launch.py -> /home/parallels/Documents/ros2_ws/install/rosbot_controller/share/rosbot_controller/launch
+[0.373s] creating /home/parallels/Documents/ros2_ws/install/rosbot_controller/share/rosbot_controller/config
+[0.373s] copying config/diff_drive_controller.yaml -> /home/parallels/Documents/ros2_ws/install/rosbot_controller/share/rosbot_controller/config
+[0.373s] copying config/mecanum_drive_controller.yaml -> /home/parallels/Documents/ros2_ws/install/rosbot_controller/share/rosbot_controller/config
+[0.373s] running install_egg_info
+[0.374s] Copying ../../../build/rosbot_controller/rosbot_controller.egg-info to /home/parallels/Documents/ros2_ws/install/rosbot_controller/lib/python3.10/site-packages/rosbot_controller-0.8.0-py3.10.egg-info
+[0.374s] running install_scripts
+[0.384s] writing list of installed files to '/home/parallels/Documents/ros2_ws/build/rosbot_controller/install.log'
+[0.396s] Invoked command in '/home/parallels/Documents/ros2_ws/src/rosbot_ros/rosbot_controller' returned '0': AMENT_PREFIX_PATH=/home/parallels/Documents/ros2_ws/install/rosbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parallels/Documents/ros2_ws/install/rosbot_description GAZEBO_MODEL_PATH=/home/parallels/Documents/ros2_ws/install/rosbot_description/share GZ_SIM_RESOURCE_PATH=/home/parallels/Documents/ros2_ws/install/rosbot_description/share IGN_GAZEBO_RESOURCE_PATH=/home/parallels/Documents/ros2_ws/install/rosbot_description/share PYTHONPATH=/home/parallels/Documents/ros2_ws/build/rosbot_controller/prefix_override:/home/parallels/Documents/ros2_ws/install/rosbot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/rosbot_controller build --build-base /home/parallels/Documents/ros2_ws/build/rosbot_controller/build install --record /home/parallels/Documents/ros2_ws/build/rosbot_controller/install.log --single-version-externally-managed install_data

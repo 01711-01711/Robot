@@ -1,0 +1,90 @@
+[0.006s] Invoking command in '/home/parallels/Documents/ros2_ws/build/mecanum_drive_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/parallels/Documents/ros2_ws/src/rosbot_ros/husarion_controllers/mecanum_drive_controller -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/parallels/Documents/ros2_ws/install/mecanum_drive_controller
+[0.057s] -- The C compiler identification is GNU 11.4.0
+[0.089s] -- The CXX compiler identification is GNU 11.4.0
+[0.093s] -- Detecting C compiler ABI info
+[0.129s] -- Detecting C compiler ABI info - done
+[0.133s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.133s] -- Detecting C compile features
+[0.133s] -- Detecting C compile features - done
+[0.135s] -- Detecting CXX compiler ABI info
+[0.174s] -- Detecting CXX compiler ABI info - done
+[0.178s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.178s] -- Detecting CXX compile features
+[0.178s] -- Detecting CXX compile features - done
+[0.180s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.267s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.311s] -- Found controller_interface: 2.40.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.335s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.337s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.342s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.349s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.358s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.913s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.915s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.961s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.038s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.043s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.075s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.080s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.106s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.120s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.139s] -- Looking for pthread.h
+[1.263s] -- Looking for pthread.h - found
+[1.263s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.451s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.452s] -- Found Threads: TRUE  
+[1.712s] -- Found generate_parameter_library: 0.3.8 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[1.713s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.728s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.782s] -- Found realtime_tools: 2.5.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[1.816s] -- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)
+[1.822s] -- Found tf2_msgs: 0.25.6 (/opt/ros/humble/share/tf2_msgs/cmake)
+[2.238s] -- Configuring done
+[2.295s] -- Generating done
+[2.296s] -- Build files have been written to: /home/parallels/Documents/ros2_ws/build/mecanum_drive_controller
+[2.311s] Invoked command in '/home/parallels/Documents/ros2_ws/build/mecanum_drive_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/parallels/Documents/ros2_ws/src/rosbot_ros/husarion_controllers/mecanum_drive_controller -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/parallels/Documents/ros2_ws/install/mecanum_drive_controller
+[2.311s] Invoking command in '/home/parallels/Documents/ros2_ws/build/mecanum_drive_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/parallels/Documents/ros2_ws/build/mecanum_drive_controller -- -j4 -l4
+[2.502s] [ 20%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/parallels/Documents/ros2_ws/build/mecanum_drive_controller/mecanum_drive_controller_parameters/include//mecanum_drive_controller_parameters.hpp /home/parallels/Documents/ros2_ws/src/rosbot_ros/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller_parameter.yaml `[0m
+[3.557s] [ 20%] Built target mecanum_drive_controller_parameters
+[3.568s] [ 40%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o[0m
+[3.573s] [ 60%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/speed_limiter.cpp.o[0m
+[3.584s] [ 80%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/odometry.cpp.o[0m
+[25.243s] [100%] [32m[1mLinking CXX shared library libmecanum_drive_controller.so[0m
+[25.519s] [100%] Built target mecanum_drive_controller
+[25.539s] Invoked command in '/home/parallels/Documents/ros2_ws/build/mecanum_drive_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/parallels/Documents/ros2_ws/build/mecanum_drive_controller -- -j4 -l4
+[25.932s] Invoking command in '/home/parallels/Documents/ros2_ws/build/mecanum_drive_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/parallels/Documents/ros2_ws/build/mecanum_drive_controller
+[25.947s] -- Install configuration: "Release"
+[25.948s] -- Installing: /home/parallels/Documents/ros2_ws/install/mecanum_drive_controller/include/mecanum_drive_controller_parameters
+[25.948s] -- Installing: /home/parallels/Documents/ros2_ws/install/mecanum_drive_controller/include/mecanum_drive_controller_parameters/mecanum_drive_controller_parameters.hpp
+[25.951s] -- Installing: /home/parallels/Documents/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/mecanum_drive_plugin.xml
+[25.952s] -- Installing: /home/parallels/Documents/ros2_ws/install/mecanum_drive_controller/include/mecanum_drive_controller
+[25.952s] -- Installing: /home/parallels/Documents/ros2_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller
+[25.953s] -- Installing: /home/parallels/Documents/ros2_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/mecanum_drive_controller.hpp
+[25.953s] -- Installing: /home/parallels/Documents/ros2_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/odometry.hpp
+[25.954s] -- Installing: /home/parallels/Documents/ros2_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/visibility_control.h
+[25.955s] -- Installing: /home/parallels/Documents/ros2_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/speed_limiter.hpp
+[25.956s] -- Installing: /home/parallels/Documents/ros2_ws/install/mecanum_drive_controller/lib/libmecanum_drive_controller.so
+[25.958s] -- Set runtime path of "/home/parallels/Documents/ros2_ws/install/mecanum_drive_controller/lib/libmecanum_drive_controller.so" to ""
+[25.958s] -- Installing: /home/parallels/Documents/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/library_path.sh
+[25.959s] -- Installing: /home/parallels/Documents/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/library_path.dsv
+[25.960s] -- Installing: /home/parallels/Documents/ros2_ws/install/mecanum_drive_controller/share/ament_index/resource_index/package_run_dependencies/mecanum_drive_controller
+[25.960s] -- Installing: /home/parallels/Documents/ros2_ws/install/mecanum_drive_controller/share/ament_index/resource_index/parent_prefix_path/mecanum_drive_controller
+[25.961s] -- Installing: /home/parallels/Documents/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/ament_prefix_path.sh
+[25.961s] -- Installing: /home/parallels/Documents/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/ament_prefix_path.dsv
+[25.962s] -- Installing: /home/parallels/Documents/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/path.sh
+[25.963s] -- Installing: /home/parallels/Documents/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/path.dsv
+[25.963s] -- Installing: /home/parallels/Documents/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.bash
+[25.964s] -- Installing: /home/parallels/Documents/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.sh
+[25.964s] -- Installing: /home/parallels/Documents/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.zsh
+[25.965s] -- Installing: /home/parallels/Documents/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.dsv
+[25.965s] -- Installing: /home/parallels/Documents/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.dsv
+[25.966s] -- Installing: /home/parallels/Documents/ros2_ws/install/mecanum_drive_controller/share/ament_index/resource_index/packages/mecanum_drive_controller
+[25.966s] -- Installing: /home/parallels/Documents/ros2_ws/install/mecanum_drive_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/mecanum_drive_controller
+[25.967s] -- Installing: /home/parallels/Documents/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/export_mecanum_drive_controllerExport.cmake
+[25.968s] -- Installing: /home/parallels/Documents/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/export_mecanum_drive_controllerExport-release.cmake
+[25.968s] -- Installing: /home/parallels/Documents/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/ament_cmake_export_targets-extras.cmake
+[25.969s] -- Installing: /home/parallels/Documents/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[25.970s] -- Installing: /home/parallels/Documents/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/mecanum_drive_controllerConfig.cmake
+[25.970s] -- Installing: /home/parallels/Documents/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/mecanum_drive_controllerConfig-version.cmake
+[25.971s] -- Installing: /home/parallels/Documents/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.xml
+[25.977s] Invoked command in '/home/parallels/Documents/ros2_ws/build/mecanum_drive_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/parallels/Documents/ros2_ws/build/mecanum_drive_controller

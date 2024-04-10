@@ -1,0 +1,21 @@
+[0.679s] Invoking command in '/home/parallels/Documents/ros2_ws/src/rosbot_ros/rosbot_utils': PYTHONPATH=/home/parallels/Documents/ros2_ws/build/rosbot_utils/prefix_override:/home/parallels/Documents/ros2_ws/install/rosbot_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/rosbot_utils build --build-base /home/parallels/Documents/ros2_ws/build/rosbot_utils/build install --record /home/parallels/Documents/ros2_ws/build/rosbot_utils/install.log --single-version-externally-managed install_data
+[0.802s] running egg_info
+[0.802s] writing ../../../build/rosbot_utils/rosbot_utils.egg-info/PKG-INFO
+[0.803s] writing dependency_links to ../../../build/rosbot_utils/rosbot_utils.egg-info/dependency_links.txt
+[0.803s] writing entry points to ../../../build/rosbot_utils/rosbot_utils.egg-info/entry_points.txt
+[0.803s] writing requirements to ../../../build/rosbot_utils/rosbot_utils.egg-info/requires.txt
+[0.804s] writing top-level names to ../../../build/rosbot_utils/rosbot_utils.egg-info/top_level.txt
+[0.805s] reading manifest file '../../../build/rosbot_utils/rosbot_utils.egg-info/SOURCES.txt'
+[0.805s] writing manifest file '../../../build/rosbot_utils/rosbot_utils.egg-info/SOURCES.txt'
+[0.807s] running build
+[0.807s] running build_py
+[0.807s] running install
+[0.808s] running install_lib
+[0.809s] running install_data
+[0.809s] running install_egg_info
+[0.815s] removing '/home/parallels/Documents/ros2_ws/install/rosbot_utils/lib/python3.10/site-packages/rosbot_utils-0.12.0-py3.10.egg-info' (and everything under it)
+[0.817s] Copying ../../../build/rosbot_utils/rosbot_utils.egg-info to /home/parallels/Documents/ros2_ws/install/rosbot_utils/lib/python3.10/site-packages/rosbot_utils-0.12.0-py3.10.egg-info
+[0.817s] running install_scripts
+[0.835s] Installing flash_firmware script to /home/parallels/Documents/ros2_ws/install/rosbot_utils/lib/rosbot_utils
+[0.836s] writing list of installed files to '/home/parallels/Documents/ros2_ws/build/rosbot_utils/install.log'
+[0.851s] Invoked command in '/home/parallels/Documents/ros2_ws/src/rosbot_ros/rosbot_utils' returned '0': PYTHONPATH=/home/parallels/Documents/ros2_ws/build/rosbot_utils/prefix_override:/home/parallels/Documents/ros2_ws/install/rosbot_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/rosbot_utils build --build-base /home/parallels/Documents/ros2_ws/build/rosbot_utils/build install --record /home/parallels/Documents/ros2_ws/build/rosbot_utils/install.log --single-version-externally-managed install_data

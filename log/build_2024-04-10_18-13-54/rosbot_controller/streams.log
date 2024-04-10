@@ -1,0 +1,18 @@
+[0.276s] Invoking command in '/home/parallels/Documents/ros2_ws/src/rosbot_ros/rosbot_controller': CMAKE_PREFIX_PATH=/home/parallels/Documents/ros2_ws/install/rosbot_description:/home/parallels/Documents/ros2_ws/install/rosbot PYTHONPATH=/home/parallels/Documents/ros2_ws/build/rosbot_controller/prefix_override:/home/parallels/Documents/ros2_ws/install/rosbot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/rosbot_controller build --build-base /home/parallels/Documents/ros2_ws/build/rosbot_controller/build install --record /home/parallels/Documents/ros2_ws/build/rosbot_controller/install.log --single-version-externally-managed install_data
+[0.380s] running egg_info
+[0.380s] writing ../../../build/rosbot_controller/rosbot_controller.egg-info/PKG-INFO
+[0.380s] writing dependency_links to ../../../build/rosbot_controller/rosbot_controller.egg-info/dependency_links.txt
+[0.380s] writing entry points to ../../../build/rosbot_controller/rosbot_controller.egg-info/entry_points.txt
+[0.381s] writing requirements to ../../../build/rosbot_controller/rosbot_controller.egg-info/requires.txt
+[0.381s] writing top-level names to ../../../build/rosbot_controller/rosbot_controller.egg-info/top_level.txt
+[0.381s] reading manifest file '../../../build/rosbot_controller/rosbot_controller.egg-info/SOURCES.txt'
+[0.381s] writing manifest file '../../../build/rosbot_controller/rosbot_controller.egg-info/SOURCES.txt'
+[0.381s] running build
+[0.382s] running install
+[0.382s] running install_data
+[0.382s] running install_egg_info
+[0.383s] removing '/home/parallels/Documents/ros2_ws/install/rosbot_controller/lib/python3.10/site-packages/rosbot_controller-0.8.0-py3.10.egg-info' (and everything under it)
+[0.383s] Copying ../../../build/rosbot_controller/rosbot_controller.egg-info to /home/parallels/Documents/ros2_ws/install/rosbot_controller/lib/python3.10/site-packages/rosbot_controller-0.8.0-py3.10.egg-info
+[0.383s] running install_scripts
+[0.393s] writing list of installed files to '/home/parallels/Documents/ros2_ws/build/rosbot_controller/install.log'
+[0.405s] Invoked command in '/home/parallels/Documents/ros2_ws/src/rosbot_ros/rosbot_controller' returned '0': CMAKE_PREFIX_PATH=/home/parallels/Documents/ros2_ws/install/rosbot_description:/home/parallels/Documents/ros2_ws/install/rosbot PYTHONPATH=/home/parallels/Documents/ros2_ws/build/rosbot_controller/prefix_override:/home/parallels/Documents/ros2_ws/install/rosbot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/rosbot_controller build --build-base /home/parallels/Documents/ros2_ws/build/rosbot_controller/build install --record /home/parallels/Documents/ros2_ws/build/rosbot_controller/install.log --single-version-externally-managed install_data

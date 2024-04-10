@@ -1,0 +1,45 @@
+[0.370s] Invoking command in '/home/parallels/Documents/ros2_ws/src/rosbot_ros/rosbot_utils': PYTHONPATH=/home/parallels/Documents/ros2_ws/build/rosbot_utils/prefix_override:/home/parallels/Documents/ros2_ws/install/rosbot_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/rosbot_utils build --build-base /home/parallels/Documents/ros2_ws/build/rosbot_utils/build install --record /home/parallels/Documents/ros2_ws/build/rosbot_utils/install.log --single-version-externally-managed install_data
+[0.486s] running egg_info
+[0.486s] creating ../../../build/rosbot_utils/rosbot_utils.egg-info
+[0.486s] writing ../../../build/rosbot_utils/rosbot_utils.egg-info/PKG-INFO
+[0.486s] writing dependency_links to ../../../build/rosbot_utils/rosbot_utils.egg-info/dependency_links.txt
+[0.486s] writing entry points to ../../../build/rosbot_utils/rosbot_utils.egg-info/entry_points.txt
+[0.486s] writing requirements to ../../../build/rosbot_utils/rosbot_utils.egg-info/requires.txt
+[0.486s] writing top-level names to ../../../build/rosbot_utils/rosbot_utils.egg-info/top_level.txt
+[0.486s] writing manifest file '../../../build/rosbot_utils/rosbot_utils.egg-info/SOURCES.txt'
+[0.487s] reading manifest file '../../../build/rosbot_utils/rosbot_utils.egg-info/SOURCES.txt'
+[0.488s] writing manifest file '../../../build/rosbot_utils/rosbot_utils.egg-info/SOURCES.txt'
+[0.488s] running build
+[0.488s] running build_py
+[0.488s] creating /home/parallels/Documents/ros2_ws/build/rosbot_utils/build
+[0.488s] creating /home/parallels/Documents/ros2_ws/build/rosbot_utils/build/lib
+[0.488s] creating /home/parallels/Documents/ros2_ws/build/rosbot_utils/build/lib/rosbot_utils
+[0.488s] copying rosbot_utils/flash_firmware.py -> /home/parallels/Documents/ros2_ws/build/rosbot_utils/build/lib/rosbot_utils
+[0.488s] copying rosbot_utils/__init__.py -> /home/parallels/Documents/ros2_ws/build/rosbot_utils/build/lib/rosbot_utils
+[0.488s] copying rosbot_utils/flash-firmware-usb.py -> /home/parallels/Documents/ros2_ws/build/rosbot_utils/build/lib/rosbot_utils
+[0.488s] copying rosbot_utils/flash-firmware.py -> /home/parallels/Documents/ros2_ws/build/rosbot_utils/build/lib/rosbot_utils
+[0.488s] running install
+[0.488s] running install_lib
+[0.488s] creating /home/parallels/Documents/ros2_ws/install/rosbot_utils/lib/python3.10/site-packages/rosbot_utils
+[0.488s] copying /home/parallels/Documents/ros2_ws/build/rosbot_utils/build/lib/rosbot_utils/flash_firmware.py -> /home/parallels/Documents/ros2_ws/install/rosbot_utils/lib/python3.10/site-packages/rosbot_utils
+[0.489s] copying /home/parallels/Documents/ros2_ws/build/rosbot_utils/build/lib/rosbot_utils/__init__.py -> /home/parallels/Documents/ros2_ws/install/rosbot_utils/lib/python3.10/site-packages/rosbot_utils
+[0.489s] copying /home/parallels/Documents/ros2_ws/build/rosbot_utils/build/lib/rosbot_utils/flash-firmware-usb.py -> /home/parallels/Documents/ros2_ws/install/rosbot_utils/lib/python3.10/site-packages/rosbot_utils
+[0.489s] copying /home/parallels/Documents/ros2_ws/build/rosbot_utils/build/lib/rosbot_utils/flash-firmware.py -> /home/parallels/Documents/ros2_ws/install/rosbot_utils/lib/python3.10/site-packages/rosbot_utils
+[0.489s] byte-compiling /home/parallels/Documents/ros2_ws/install/rosbot_utils/lib/python3.10/site-packages/rosbot_utils/flash_firmware.py to flash_firmware.cpython-310.pyc
+[0.489s] byte-compiling /home/parallels/Documents/ros2_ws/install/rosbot_utils/lib/python3.10/site-packages/rosbot_utils/__init__.py to __init__.cpython-310.pyc
+[0.489s] byte-compiling /home/parallels/Documents/ros2_ws/install/rosbot_utils/lib/python3.10/site-packages/rosbot_utils/flash-firmware-usb.py to flash-firmware-usb.cpython-310.pyc
+[0.490s] byte-compiling /home/parallels/Documents/ros2_ws/install/rosbot_utils/lib/python3.10/site-packages/rosbot_utils/flash-firmware.py to flash-firmware.cpython-310.pyc
+[0.490s] running install_data
+[0.490s] creating /home/parallels/Documents/ros2_ws/install/rosbot_utils/share/ament_index
+[0.490s] creating /home/parallels/Documents/ros2_ws/install/rosbot_utils/share/ament_index/resource_index
+[0.490s] creating /home/parallels/Documents/ros2_ws/install/rosbot_utils/share/ament_index/resource_index/packages
+[0.490s] copying resource/rosbot_utils -> /home/parallels/Documents/ros2_ws/install/rosbot_utils/share/ament_index/resource_index/packages
+[0.490s] copying package.xml -> /home/parallels/Documents/ros2_ws/install/rosbot_utils/share/rosbot_utils
+[0.490s] creating /home/parallels/Documents/ros2_ws/install/rosbot_utils/share/rosbot_utils/firmware
+[0.491s] copying firmware/firmware-0.11.0.bin -> /home/parallels/Documents/ros2_ws/install/rosbot_utils/share/rosbot_utils/firmware
+[0.491s] running install_egg_info
+[0.491s] Copying ../../../build/rosbot_utils/rosbot_utils.egg-info to /home/parallels/Documents/ros2_ws/install/rosbot_utils/lib/python3.10/site-packages/rosbot_utils-0.12.0-py3.10.egg-info
+[0.491s] running install_scripts
+[0.501s] Installing flash_firmware script to /home/parallels/Documents/ros2_ws/install/rosbot_utils/lib/rosbot_utils
+[0.502s] writing list of installed files to '/home/parallels/Documents/ros2_ws/build/rosbot_utils/install.log'
+[0.515s] Invoked command in '/home/parallels/Documents/ros2_ws/src/rosbot_ros/rosbot_utils' returned '0': PYTHONPATH=/home/parallels/Documents/ros2_ws/build/rosbot_utils/prefix_override:/home/parallels/Documents/ros2_ws/install/rosbot_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/rosbot_utils build --build-base /home/parallels/Documents/ros2_ws/build/rosbot_utils/build install --record /home/parallels/Documents/ros2_ws/build/rosbot_utils/install.log --single-version-externally-managed install_data
